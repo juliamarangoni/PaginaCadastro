@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    background-color: #775533;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.cartao {
+    background-color: #f2f5e2;
+    padding: 50px 100px;
+}
+
+h1 {
+    font-family: 'Stick', sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.foot {
+    font-size: 12px;
+}
+
+img {
+    width: 170px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto -15px;
+}
+
+.personagens {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+.sasuke {
+    margin-right: -50px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Stick', sans-serif;
+    background-color: #290024;
+    color: #f2f5e2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form button {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo label {
+    font-size: 18px;
+}
+
+.campo input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    border: 1px solid #775533;
+    background-color: #fff;
+}
+
+.campo input[type="file"] {
+    padding: 0;
+    border: none;
+    background: none;
+    color: transparent;
+    overflow: hidden;
+}
+
+.campo input[type="file"]::file-selector-button {
+    padding: 8px 14px;
+    margin-right: 10px;
+    border: none;
+    background-color: #290024;
+    color: #f2f5e2;
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .cartao {
+        padding: 25px;
+    }
+}
